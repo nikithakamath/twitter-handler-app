@@ -48,13 +48,6 @@ class Filter extends Component {
                             <div>
                                 <h3 className={styles.movie_title}>{tweet.name}</h3>
                                 <h5 className={styles.movie_tag}>{tweet.text}</h5>
-                                    {/* <p className={styles.movie_description}>{movie.overview}</p> */}
-                                {/* <div>
-                                    <span>
-                                        <Icon type="star" style={{ marginRight: 8 }} key="list-vertical-like-o" />
-                                        {movie.vote_count}
-                                    </span>
-                                </div> */}
                             </div>
                             <img src={tweet.profile_banner_url} alt = {tweet.name} />
                             </li>
